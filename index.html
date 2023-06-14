@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body class="bg-blue-very-dark font-overpass">
+
+  <div class="grid place-content-center px-6 min-h-screen gap-2">
+    <div
+      class="rating-input-card | bg-blue-dark shadow-orange/5 shadow-2xl p-6 rounded-2xl sm:rounded-3xl space-y-7 max-w-xs">
+      <div class="flex w-10 h-10 sm:p-3 p-3 bg-grey-medium/20 rounded-full">
+        <img src="/images/icon-star.svg" alt="">
+      </div>
+      <div class="space-y-1">
+        <h1 class="text-white font-bold text-lg">How did we do?</h1>
+        <p class="text-sm text-grey-light">
+          Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+      </div>
+      <form class="">
+        <div class="flex justify-between mb-6">
+          <div>
+            <input type="radio" name="rating" id="rating-1" value="1" class="hidden">
+            <label for="rating-1"
+              class="flex justify-center items-center font-bold text-grey-light w-10 h-10 bg-grey-medium/20 rounded-full hover:bg-orange hover:text-white transition-all duration-200 overflow-hidden"><span
+                class="mt-1.5">1</span></label>
+          </div>
+          <div>
+            <input type="radio" name="rating" id="rating-2" value="2" class="hidden">
+            <label for="rating-2"
+              class="flex justify-center items-center font-bold text-grey-light w-10 h-10 bg-grey-medium/20 rounded-full hover:bg-orange hover:text-white transition-all duration-200 overflow-hidden"><span
+                class="mt-1.5">2</span></label>
+          </div>
+          <div>
+            <input type="radio" name="rating" id="rating-3" value="3" class="hidden">
+            <label for="rating-3"
+              class="flex justify-center items-center font-bold text-grey-light w-10 h-10 bg-grey-medium/20 rounded-full hover:bg-orange hover:text-white transition-all duration-200 overflow-hidden"><span
+                class="mt-1.5">3</span></label>
+          </div>
+          <div>
+            <input type="radio" name="rating" id="rating-4" value="4" class="hidden">
+            <label for="rating-4"
+              class="flex justify-center items-center font-bold text-grey-light w-10 h-10 bg-grey-medium/20 rounded-full hover:bg-orange hover:text-white transition-all duration-200 overflow-hidden"><span
+                class="mt-1.5">4</span></label>
+          </div>
+          <div>
+            <input type="radio" name="rating" id="rating-5" value="5" class="hidden">
+            <label for="rating-5"
+              class="flex justify-center items-center font-bold text-grey-light w-10 h-10 bg-grey-medium/20 rounded-full hover:bg-orange hover:text-white transition-all duration-200 overflow-hidden"><span
+                class="mt-1.5">5</span></label>
+          </div>
+        </div>
+        <div>
+          <button
+            class="bg-orange text-white block w-full py-2 rounded-3xl uppercase text-[0.8rem] font-overpass tracking-widest font-bold hover:text-orange hover:bg-white transition-all duration-200">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Thank you -->
+    <div
+      class="thank-you-card | bg-blue-dark shadow-orange/5 shadow-2xl px-6 py-8 rounded-2xl sm:rounded-3xl space-y-5 max-w-xs hidden">
+      <div class="flex w-32 mx-auto">
+        <img src="/images/illustration-thank-you.svg" alt="" class="m-auto">
+      </div>
+      <div class="text-center">
+        <span class="text-orange bg-grey-medium/20 inline-block px-2 py-1 text-xs tracking-wider rounded-3xl">
+          <span class="rating-count | mt-1 inline-block">You did not select a rating</span>
+        </span>
+      </div>
+      <div class="space-y-1 text-center">
+        <h1 class="text-white font-bold text-lg">Thank you!</h1>
+        <p class="text-sm text-grey-light">
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center text-grey-light/60 text-xs sm:fixed sm:bottom-0 sm:right-0 sm:left-0 p-2">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-orange/80">Frontend
+      Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/chiroro-jr" class="text-orange/80">Nyasha D. Chiroro</a>.
+  </div>
+
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    input[type='radio']:checked + label {
+        background-color: theme(colors.grey.light);
+        color: theme(colors.white);
+    }
+    input[type='radio']:checked + label:hover {
+        background-color: theme(colors.orange);
+        color: theme(colors.white);
+    }
+}
