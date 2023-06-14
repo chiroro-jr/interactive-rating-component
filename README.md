@@ -1,18 +1,20 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+-   [Frontend Mentor - Interactive rating component solution](#frontend-mentor---interactive-rating-component-solution)
+    -   [Table of contents](#table-of-contents)
+    -   [Overview](#overview)
+        -   [The challenge](#the-challenge)
+        -   [Screenshot](#screenshot)
+        -   [Links](#links)
+    -   [My process](#my-process)
+        -   [Built with](#built-with)
+        -   [What I learned](#what-i-learned)
+        -   [Useful resources](#useful-resources)
+    -   [Author](#author)
 
 ## Overview
 
@@ -20,10 +22,10 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+-   View the optimal layout for the app depending on their device's screen size
+-   See hover states for all interactive elements on the page
+-   Select and submit a number rating
+-   See the "Thank you" card state after submitting a rating
 
 ### Screenshot
 
@@ -33,23 +35,23 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
-- Flexbox
-- Grid
-- Mobile-first workflow
-- [Vite](https://vitejs.dev/) - Next generation frontend tooling
+-   Semantic HTML5 markup
+-   [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
+-   Flexbox
+-   Grid
+-   Mobile-first workflow
+-   [Vite](https://vitejs.dev/) - Next generation frontend tooling
 
 ### What I learned
 
-I'm particularly proud of how I used radio buttons to track the selected rating instead of implementing some complex state management and a lot of DOM manipulations. At first I was thinking of bringing a lightweight DOM library like [AlpineJS]([Alpine.js (alpinejs.dev)](https://alpinejs.dev/)), but then I remembered that forms can track state and went for a simple solution.
+I'm particularly proud of how I used radio buttons to track the selected rating instead of implementing some complex state management and a lot of DOM manipulations. At first I was thinking of bringing a lightweight DOM library like [AlpineJS](https://alpinejs.dev/), but then I remembered that forms can track state and went for a simple solution.
 
 ### Useful resources
 
@@ -57,5 +59,5 @@ There's a Stack Overflow thread I used to help me style a label based on the sta
 
 ## Author
 
-- Frontend Mentor - [@chiroro-jr](https://www.frontendmentor.io/profile/chiroro_jr)
-- Twitter - [@chiroro_jr](https://www.twitter.com/chiroro_jr)
+-   Frontend Mentor - [@chiroro-jr](https://www.frontendmentor.io/profile/chiroro_jr)
+-   Twitter - [@chiroro_jr](https://www.twitter.com/chiroro_jr)
